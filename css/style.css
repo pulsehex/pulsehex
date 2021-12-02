@@ -1,0 +1,322 @@
+:root{
+    --p-dark: #414141;
+    --s-dark:#212121;
+    --s-light: #000000;
+}
+
+.nb{
+    background-color: var(--s-dark) !important;
+}
+
+body {
+  font-family: 'Jost', sans-serif;
+  background-color: var(--p-dark);
+}
+
+.page-section {
+  padding: 2rem 0;
+}
+
+.dark-bg{
+  background-color: var(--s-dark);
+  padding: 1rem;
+}
+
+.rounded-5 {
+  border-radius: 0.5rem !important;
+}
+
+.light-bg{
+  background-color: var(--s-light);
+  padding: 1rem;
+}
+
+.container-entry{
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.img-prev{
+  background-image: url("assets/img/transparancy-grid.png");
+}
+
+.btn-outline-light{
+  font-family: 'Jost', sans-serif !important;
+  text-transform: uppercase;
+  border: 2px solid;
+}
+
+
+
+
+
+.mx-9 {
+  margin-right: 12rem !important;
+  margin-left: 6rem !important;
+}
+
+.px-9 {
+  padding-right: 12rem !important;
+  padding-left: 6rem !important;
+}
+
+.pe-9 {
+  padding-right: 12rem !important;
+}
+
+
+.sub-hr{
+  background-color: var(--p-accent); 
+  height: 0.15rem !important; 
+  width: 100px; 
+  opacity: 1;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.section-services {
+  background-image: url("../assets/img/stof.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.section-about{
+  background-color: var(--p-dark);
+}
+
+.container-about{
+  background-color: var(--p-dark);
+}
+
+.section-testimonials{
+  background-color: white;
+}
+.section-tarieven{
+  padding: 10rem 0;
+  background-color: white;
+}
+.section-contact{
+  background-image: url("../assets/img/stof.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+.layer {
+  padding: 6rem 0;
+  background-color: #0000004D;
+  width: 100%;
+  height: 100%;
+}
+
+.section-footer{
+  background-color: var(--p-dark);
+}
+
+.xxsmall {
+  font-size: 0.75em;
+}
+
+.xsmall{
+  font-size: 0.825em;
+}
+
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: var(--p-accent);
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: #000000;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+
+.h5-light{
+  color: var(--light);
+}
+
+.nr-services{
+  color: var(--p-accent);
+}
+
+.quote{
+  width: 20px;
+}
+
+.pricing-card{
+  background-color: #ffd569;
+}
+
+.pricing-card-2{
+  background-color: #fb9e78;
+}
+
+.btn-contact{
+  font-size: 0.825em;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.hyp-link{
+  font-family: 'noto_serif_dispregular';
+  text-decoration: none;
+  color: var(--p-dark);
+}
+
+.hyp-link:hover {
+  color: var(--p-accent);
+}
+
+.hyp-link-dark{
+  text-decoration: none;
+  color:var(--p-accent-light);
+}
+
+.hyp-link-dark:hover{
+  text-decoration: none;
+  font-weight: 500;
+  color:var(--p-accent);
+}
+
+.hyp-link-foot{
+  text-decoration: none;
+  color: #ccc;
+}
+
+.h-one{
+  font-family: 'noto_serif_dispregular';
+  font-weight: 400;
+  text-align: center !important;
+  margin-top: 0.25rem !important;
+}
+
+.icon-size{
+  width: 50px;
+}
+
+.h-main{
+  font-family: 'noto_serif_dispregular';
+  font-weight: 600;
+}
+
+.btn-yun {
+  color: #000;
+  background-color: var(--p-accent);
+  border-color: var(--p-accent);
+}
+.btn-yun:hover {
+  color: #000;
+  background-color: var(--p-accent-light);
+  border-color: var(--p-accent-dark);
+}
+.btn-check:focus + .btn-yun, .btn-yun:focus {
+  color: #000;
+  background-color: var(--p-accent-light);
+  border-color: var(--p-accent-dark);
+  box-shadow: 0 0 0 0.25rem rgba(217, 164, 6, 0.5);
+}
+.btn-check:checked + .btn-yun, .btn-check:active + .btn-yun, .btn-yun:active, .btn-yun.active, .show > .btn-yun.dropdown-toggle {
+  color: #000;
+  background-color: var(--p-accent-light);
+  border-color: var(--p-accent-dark);
+}
+.btn-check:checked + .btn-yun:focus, .btn-check:active + .btn-yun:focus, .btn-yun:active:focus, .btn-yun.active:focus, .show > .btn-yun.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(217, 164, 6, 0.5);
+}
+.btn-yun:disabled, .btn-yun.disabled {
+  color: #000;
+  background-color: var(--p-accent);
+  border-color: var(--p-accent);
+}
+
+.btn-outline-yun {
+  color: var(--p-accent);
+  border-color: var(--p-accent);
+}
+.btn-outline-yun:hover {
+  color: #000;
+  background-color: var(--p-accent);
+  border-color: var(--p-accent);
+}
+.btn-check:focus + .btn-outline-yun, .btn-outline-yun:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.5);
+}
+.btn-check:checked + .btn-outline-yun, .btn-check:active + .btn-outline-yun, .btn-outline-yun:active, .btn-outline-yun.active, .btn-outline-yun.dropdown-toggle.show {
+  color: #000;
+  background-color: var(--p-accent);
+  border-color: var(--p-accent);
+}
+.btn-check:checked + .btn-outline-yun:focus, .btn-check:active + .btn-outline-yun:focus, .btn-outline-yun:active:focus, .btn-outline-yun.active:focus, .btn-outline-yun.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.5);
+}
+.btn-outline-yun:disabled, .btn-outline-yun.disabled {
+  color: var(--p-accent);
+  background-color: transparent;
+}
+
+.d-block{
+  background-color: black;
+  color: var(--light);
+}
+
+.card-header{
+  background-color: var(--p-accent);
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: transparent;
+  background-clip: border-box;
+  border: 0px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-footer {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border-top: 0px solid rgba(0, 0, 0, 0.125);
+}
+.card-footer:last-child {
+  border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+}
+
+.container-services{
+  background-color: var(--p-color);
+}
+
+.colab-img{
+  background-image: url("../assets/img/colab.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.about-img{
+  background-image: url("../assets/img/about.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.colab-hr{
+  height: 1px !important; 
+  opacity: 1;
+}
